@@ -12,5 +12,5 @@ body {
 
 .section.active {
     opacity: 1;
-    transform: translateY(-40px);
+    transform: translateY(0);
 }
