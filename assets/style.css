@@ -5,6 +5,7 @@ body {
 
 .section {
     transform: translateY(40px);
+    opacity: 0.2;
     /* Increase translateY for more noticeable pop-up */
     transition: opacity 1s, transform 1s;
     /* Increase transition duration for a slower effect */
