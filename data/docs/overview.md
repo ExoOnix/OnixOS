@@ -6,7 +6,7 @@
 OnixOS comes with the KDE Plasma desktop, making your desktop look modern and helping you work more efficiently.
 
 ## Onix Package Manager (OPM):
-OPM makes it easy to install and manage software. It's fast, has a software store, and supports simple installation of software files (.opm).
+OPM makes it easy to install and manage software. It's fast, has a software store, supports simple installation of software files (.opm), and installation of portable executable files (.opme).
 
 ## Privacy First:
 OnixOS cares about your privacy and security, ensuring that your personal data stays safe while you use your computer.
