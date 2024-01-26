@@ -1,12 +1,9 @@
 document.addEventListener("DOMContentLoaded", function () {
   // Simulate file structure (replace this with your actual structure)
   const fileStructure = {
-    test: "main.md",
-    usage: {
-      Configuration: "config.md",
-      Introduction: "main.md",
-      Installation: "installation.md",
-    },
+    Introduction: {
+      "Quick-Overview": "overview.md",
+    }
   };
 
   // Render file structure in the sidebar with limited depth

@@ -18,3 +18,8 @@ body {
     flex: 1;
     padding: 20px;
 }
+
+.close {
+    position: absolute;
+    right: 0%;
+}
