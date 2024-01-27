@@ -32,10 +32,32 @@
 </head>
 <body>
   <a type="button" class="btn-close close" aria-label="Close" href="../index.html"></a>
+  
     <div class="container">
-        <div class="sidebar" id="sidebar"></div>
+        <div class="sidebar-container" id="sidebar-container"><button class="btn btn-primary sidebar-close" type="button" data-bs-toggle="collapse" data-bs-target="#sidebar"
+          aria-controls="sidebar" aria-expanded="false" aria-label="Toggle Sidebar" id="toggleSidebar">
+          Toggle Sidebar
+        </button><div class="sidebar d-flex flex-column flex-shrink-0 p-3 bg-light d-flex flex-column flex-shrink-0 p-3 bg-light" id="sidebar"></div></div>
         <div class="content" id="content"></div>
     </div>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var sidebar = document.getElementById('sidebar');
+      var sidebarContainer = document.getElementById('sidebar-container');
+      var content = document.getElementById('content');
+      var toggleButton = document.getElementById('toggleSidebar');
+
+      toggleButton.addEventListener('click', function () {
+        if (sidebar.offsetWidth > 0) {
+          sidebar.style.setProperty('display', "none", 'important');
+
+        } else {
+          sidebar.style.display = 'block', '!important';
+
+        }
+      });
+    });
+  </script>
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <script src="./index.js" type="module"></script>
 </body>

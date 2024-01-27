@@ -9,12 +9,14 @@ document.addEventListener("DOMContentLoaded", function () {
   // Render file structure in the sidebar with limited depth
   function renderFileStructure(node, parentElement) {
     const ul = document.createElement("ul");
+    ul.classList.add("nav", "nav-pills", "flex-column", "mb-auto");
 
     for (const [description, file] of Object.entries(node)) {
       const li = document.createElement("li");
-
+      
       if (typeof file === "string") {
         const link = document.createElement("a");
+        link.classList.add("nav-link", "link-dark");
         link.textContent = description;
         link.href = `#${description}`; // Set to "#" or your actual link
         li.appendChild(link);
