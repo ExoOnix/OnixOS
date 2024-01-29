@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const fileStructure = {
     Introduction: {
       "Quick-Overview": "overview.md",
+      "Frequently-Asked-Questions": "faq.md",
     }
   };
 
