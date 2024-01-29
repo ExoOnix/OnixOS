@@ -35,7 +35,6 @@ body {
 
 .content {
     margin-left: 250px;
-    margin-top: 80px;
     /* Adjust content margin based on the sidebar width */
 }
 
@@ -60,6 +59,8 @@ body {
 
     .content {
         margin-left: 0;
+        margin-top: 80px;
+
         /* Remove the margin for content */
     }
     .sidebar-close {
