@@ -44,7 +44,11 @@ body {
 
 /* Media query for smaller screens (e.g., mobile devices) */
 @media (max-width: 767px) {
-    .sidebar-container {
+    .container {
+        flex-direction: column; /* Change to column layout for smaller screens */
+    }
+
+    .sidebar .sidebar-container {
         width: 100%;
         /* Make the sidebar take up 100% of the width */
         position: fixed;
@@ -58,9 +62,9 @@ body {
     }
 
     .content {
-        margin-left: 0;
-        /* Remove the margin for content */
+        margin-top: 100px; /* Adjust the margin top to accommodate the sidebar height */
     }
+
     .sidebar-close {
         display: inline !important;
     }
