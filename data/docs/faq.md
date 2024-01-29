@@ -14,3 +14,6 @@ OnixOS is designed mainly designed for Desktop including highly customized KDE P
 
 ## When are updates
 The core(Main system) updates every 2 years while the non core packages update frequently.
+
+
+This article is a stub. Help improve it at [Github](https://github.com/ExoOnix/OnixOS/blob/main/data/docs/faq.md).
