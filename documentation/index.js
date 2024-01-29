@@ -94,3 +94,28 @@ document.addEventListener("DOMContentLoaded", function () {
     return null;
   }
 });
+
+// Function to set margin-top based on window width
+function setMarginTop() {
+  var element1 = document.querySelector('.sidebar-container');
+  var element2 = document.querySelector('.content');
+
+  // Check window width
+  if (window.innerWidth <= 767) {
+    // Set margin-top of element2 based on the height of element1
+    var marginTopValue = element1.clientHeight + 'px';
+    element2.style.marginTop = marginTopValue;
+
+    // Optional: Log the margin-top value for verification
+    console.log('Margin-top set to:', marginTopValue);
+  } else {
+    // Reset margin-top when window width is greater than 767
+    element2.style.marginTop = '0';
+  }
+}
+
+// Initial call to setMarginTop on page load
+setMarginTop();
+
+// Event listener to call setMarginTop on window resize
+window.addEventListener('resize', setMarginTop);
