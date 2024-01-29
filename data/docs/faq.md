@@ -12,7 +12,7 @@ Yes, OnixOS follows the FHS and other Linux standards as closely as possible.
 ## What is OnixOS designed for
 OnixOS is designed mainly designed for Desktop including highly customized KDE Plasma, however can be used for any use case.
 
-## When are updates
+## When are system updates
 The core(Main system) updates every 2 years while the non core packages update frequently.
 
 
