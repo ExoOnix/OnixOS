@@ -4,6 +4,9 @@ document.addEventListener("DOMContentLoaded", function () {
     Introduction: {
       "Quick-Overview": "overview.md",
       "Frequently-Asked-Questions": "faq.md",
+    },
+    Concepts: {
+      "System-Overview": "concepts/os-core-concepts.md",
     }
   };
 
