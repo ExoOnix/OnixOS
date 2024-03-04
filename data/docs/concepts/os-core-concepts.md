@@ -12,3 +12,5 @@ OPT packages are stored in /opt/opmpkg
 CORE packages are stored in the root filesystem.
 
 When a root major update releases, the whole root gets swapped with a new one, while OPT packages update seperately.
+
+This article is a stub. Help improve it at [Github](https://github.com/ExoOnix/OnixOS/blob/main/data/docs/concepts/os-core-concepts.md).
