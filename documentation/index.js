@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
     Concepts: {
       "System-Overview": "concepts/os-core-concepts.md",
+      "Onix-Package-Manager": "concepts/opm.md",
     }
   };
 

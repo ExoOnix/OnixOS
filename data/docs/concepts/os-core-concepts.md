@@ -13,4 +13,30 @@ CORE packages are stored in the root filesystem.
 
 When a root major update releases, the whole root gets swapped with a new one, while OPT packages update seperately.
 
+## Onix Package Manager
+
+The Onix Package Manager is a lighweight and basic, however powerfull package manager written in bash. The Onix Package Manager can install binaries or compile from sources and run custom scripts defined in the config.sh file. 
+
+To install a package run
+
+```bash
+opm install python
+```
+
+To uninstall a package run
+```bash
+opm uninstall python
+```
+
+To install a package from a local .opm file run
+```bash
+opm install python.opm
+```
+
+If you enter a file extention, OPM will attempt a local install.
+
+Read more in this Concepts/Onix-Package-Manager
+
+
+
 This article is a stub. Help improve it at [Github](https://github.com/ExoOnix/OnixOS/blob/main/data/docs/concepts/os-core-concepts.md).
