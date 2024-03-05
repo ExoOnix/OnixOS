@@ -1,4 +1,4 @@
-# OnixOS Package Manager
+# OnixOS core and concepts.
 
 ## Introduction
 #### What is OnixOS?
