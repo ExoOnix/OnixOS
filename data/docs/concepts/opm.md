@@ -44,8 +44,13 @@ To create a package, first create a folder named as your package. A filestructur
         - doc
             - YourPackage
                 - docs.html
-    
-##### pkgfiles
+##### pkgbuild
+
+To use the pkgbuild tool, enter pkgbuild in your package working directory and it will guide you through a set of promps to turn your package into a .opm file.
+
+##### Manual Creation
+
+###### pkgfiles
 
 pkgfiles can be generated with: ``find -type f > pkgfiles`` inside the package folder.
 Then remove ./config.sh and ./pkgfiles from the file. And add the necessary folders for your package such as /usr/share/doc/YourPackage, remove dots at start of every line. This file is necessary for deletion of the package.
@@ -57,7 +62,7 @@ The result of pkgfiles should be:
 /usr/share/doc/YourPackage
 ```
 
-##### config.sh
+###### config.sh
 
 Create the following file:
 ```bash
@@ -123,10 +128,10 @@ POST_UNINSTALL() {
 
 Such file defines package metadata and how it should be installed and uninstalled. Fill in values accordingly and use the listed dependancy methods as needed.
 
-##### Packaging
+###### Packaging
 Enter the root folder and enter ``tar -czvf YourPackage.opm YourPackage``.
 
-##### Installing your package
+###### Installing your package
 You can now execute ``opm install YourPackage.opm``.
 
 This article is a stub. Help improve it at [Github](https://github.com/ExoOnix/OnixOS/blob/main/data/docs/concepts/opm.md).
