@@ -44,9 +44,9 @@ To create a package, first create a folder named as your package. A filestructur
         - doc
             - YourPackage
                 - docs.html
-##### pkgbuild
+##### opmbuild
 
-To use the pkgbuild tool, enter pkgbuild in your package working directory and it will guide you through a set of promps to turn your package into a .opm file.
+To use the opmbuild tool, enter opmbuild in your package working directory and it will guide you through a set of promps to turn your package into a .opm file.
 
 ##### Manual Creation
 
